@@ -1,0 +1,200 @@
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+}
+nav {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+  padding-left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.grow {
+  color: rgb(133, 233, 133);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: none;
+}
+
+h1 {
+  color: rgb(133, 233, 133);
+  padding-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 10px;
+}
+h3 {
+  color: white;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.text-area {
+  text-align: center;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  color: black;
+  margin-left: 38%;
+}
+button {
+  background-color: rgb(133, 233, 133);
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.button-new {
+  background-color: black;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  color: rgb(133, 233, 133);
+}
+button:hover {
+    color: green;
+    background-color: white;
+}
+
+.sec-container {
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.sec-container span {
+  color: rgb(133, 233, 133);
+}
+.cont {
+  flex: 50%;
+}
+h4 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  flex: 30%;
+  margin-left: 50px;
+  margin-right: 5%;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.content-one {
+  flex: 50%;
+}
+.content-two {
+  flex: 50%;
+}
+.button-notify {
+  background-color: rgb(133, 233, 133);
+  width: 18%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  animation-name: button-notify;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+@keyframes button-notify {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+    from {  background-color: rgb(133, 233, 133);}
+    to {background-color: green;}
+    from {color: black;}
+    to {color: white;}
+}
+input {
+  margin-right: 10px;
+  width: 32%;
+  height: 30px;
+  color: gray;
+}
+.user-info {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  align-items: center;
+}
+.image-one {
+  flex: 30%;
+  width: 30%;
+}
+.image-two {
+  flex: 30%;
+}
+.image-three {
+  flex: 30%;
+}
+.five-div {
+  display: flex;
+  padding: 2% 8% 5% 8%;
+  width: 60%;
+  height: 350px;
+  margin: auto;
+ 
+  
+  
+}
+.five-one {
+  flex: 30%;
+}
+.five-two {
+  flex: 20%;
+}
+.five-three {
+  flex: 20%;
+ 
+}
+.five-four {
+  flex: 20%;
+
+}
+
